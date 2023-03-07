@@ -1,0 +1,47 @@
+nav {
+  background-color: steelblue;
+  padding: 10px;
+  color:rgb(13, 85, 85);
+}
+nav a {
+  color: white;
+  display: block;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: steelblue;
+  text-shadow: 3px 3px 1px lightgray;
+  align-items: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 15px gray;
+
+}
+
+p {
+    color: rgb(13, 85, 85);
+    font-size: large;
+    width: 500px;
+    align-self: center;
+    padding: 10px
+  }
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 0 20px 20px 20px;
+}
+
+  
