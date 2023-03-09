@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Vollkorn+SC:wght@700&display=swap');
+
+
 nav {
-  background-color: steelblue;
+  background-color: rgb(109, 104, 117);
   padding: 10px;
   color:rgb(13, 85, 85);
+  font-family: 'Hind Siliguri', sans-serif;
 }
 nav a {
   color: white;
@@ -12,9 +16,11 @@ nav a {
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: steelblue;
-  text-shadow: 3px 3px 1px lightgray;
-  align-items: center;
+  font-family: 'Vollkorn SC', serif;
+  font-size: 38px;
+  color: rgb(83, 79, 89);
+  text-shadow: 3px 3px 1px rgb(197, 174, 179);
+  text-align: center;
 }
 
 img {
@@ -23,25 +29,63 @@ img {
   align-items: center;
   width: 300px;
   height: auto;
-  border: 1px solid steelblue;
+  border: 1px solid rgb(109, 104, 117);
   padding: 2px;
   box-shadow: 0 0 15px gray;
 
 }
 
 p {
+    font-family: 'Hind Siliguri', sans-serif;
     color: rgb(13, 85, 85);
     font-size: large;
     width: 500px;
-    align-self: center;
-    padding: 10px
+    text-align: center;
+    padding: 0px
   }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: whitesmoke;
+  background-color: rgb(255, 238, 230);
   padding: 0 20px 20px 20px;
 }
 
-  
+aside {
+  width: 20em;
+  margin: 1em;
+  border: 1px solid rgba(109, 104, 117, 0.2); 
+  padding: 1em;
+  background-color: rgb(255, 180, 162);
+  color: #333;
+  }
+
+aside img {
+  width: 500px;
+  height: auto;
+  float: left
+}
+
+aside h2 {
+  font-family: 'Vollkorn SC', serif;
+  color: rgb(83, 79, 89);
+}
+aside p {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: rgb(13, 85, 85);
+  font-size: medium;
+  width: 250px;
+  text-align: center, justify;
+  padding: 0px
+}
+main img {
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  margin-top: 2em;
+  border-top: 1px solid rgb(109, 104, 117);
+  text-align: center;
+  font-size: smaller;
+}
